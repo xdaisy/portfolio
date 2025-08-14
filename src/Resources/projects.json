@@ -11,7 +11,8 @@
 			"role": "UI Engineer, Gameplay Engineer",
 			"engine": "C++ Proprietary",
 			"description": "I joined Monolith Productions shortly after the announcment trailer for Wonder Wonder premired at the 2021 Game Awards. I joined as a temp UI Engineer, but in less than a year's time, I was converted to full time. Later, I was moved from UI to gameplay, with my area of focus on our streaming technology. Later, I became the secondary engineer for the mission system.\n    I collaborated with designers to build new and extend existing UI systems, streaming systems, mission systems, and game objects. As part of working on the streaming system, I improved performance and resource usage. I've touched other systems as well, such as combat and audio. Additionally, I also implmenented and improved various debugging tools for designers and artists.\n    Warner Bros., Discovery announced the game was being cancelled and the studio shutdown in late February 2025.",
-			"link": "https://www.youtube.com/watch?v=dyA8lnp9Tzg"
+			"link": "https://www.youtube.com/watch?v=dyA8lnp9Tzg",
+			"image": "wonderwoman"
 		},
 		"wargaming_mobile": 
 		{
@@ -23,7 +24,8 @@
 			"role": "Software Engineer",
 			"engine": "ReactJS",
 			"description": "I joined Wargaming in 2018 as a Software Test Engineer for their internal platform. A year later, our studio was converted to working on games rather than platform when I got the opportunity to work on game development on their World of Tank mobile game, and became an Associate Software Engineer. Late, I was promoted to Software Engineer.\n    I worked on the client for the game, but also helped with server when there was less client tasks that needed to be done as our team was small. I implemented most of the UI and the gameplay.",
-			"link": ""
+			"link": "",
+			"image": ""
 		}
 	},
 	"personal":
@@ -38,7 +40,8 @@
 			"role": "UI Engineer, Gameplay Engineer",
 			"engine": "Unreal Engine 5",
 			"description": "As part of learning Unreal Engine 5, I joined a game jam. I implmented the UI system and various other systems such as dialogue, Events, NPCs, and NPC Recruitment. I started with no experience with Unreal Engine, but learned a lot during this project. I was able to use my previous experience in Monolith to development in and learn Unreal.",
-			"link": "https://baldsavant.itch.io/project-swagger"
+			"link": "https://baldsavant.itch.io/project-swagger",
+			"image": "projectswagger"
 		},
 		"osmose": 
 		{
@@ -50,7 +53,8 @@
 			"role": "Director, Producer, Designer, UI Engineer, Gameplay Engineer",
 			"engine": "Unity",
 			"description": "Osmose was my first venture into game development. It was a projected started between me and my friends to learn how to develop games. I was the head of the project and managed everyone and kept us in development. We collaborated on how the art direction, the UI, the gameplay mechanics, and the story, but I was the one who implemented them into the game. I was also the one who put everything together in the Unity Editor.",
-			"link": ""
+			"link": "",
+			"image": ""
 		},
 		"catnyap": 
 		{
@@ -62,7 +66,8 @@
 			"role": "Director, Designer, UI Engineer, Gameplay Engineer",
 			"engine": "Unity",
 			"description": "Cat Nyap was a project to learn more about game development and design. It was a project that I based off of Super Mario Bros on the NES. I wanted to learn what goes into designing and developing platformers.\n    I was the sole developer for the project, so I implemented and designed the core gameplay mechanics. I also created all the art assets and animation.",
-			"link": "https://manydazelater.itch.io/cat-nyap"
+			"link": "https://manydazelater.itch.io/cat-nyap",
+			"image": "catnyap"
 		}
 	}
 }
