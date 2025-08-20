@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import "./ProjectList.css"
 import data from './../Resources/projects.json';
 import Project from './Project';
 
@@ -12,8 +13,8 @@ class ProjectList extends Component{
         });
 
         return (
-            <div key={this.props.isProfessional}>
-                <ul>{projects}</ul>
+            <div className={"projectlist-container"} key={this.props.isProfessional}>
+                <ul className={"projectlist-container"}>{projects}</ul>
             </div>
         )
     }

@@ -1,0 +1,13 @@
+.home-container {
+    display: block;
+    justify-content: center;
+    color: #272C1A;
+}
+
+.home-container h1 {
+    text-align: center;
+}
+
+.home-container div {
+    margin: 1vw;
+}

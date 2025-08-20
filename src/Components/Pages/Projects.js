@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import "./Projects.css"
 import ProjectList from "./../ProjectList.js";
 
 const ProjectType = {
@@ -29,11 +30,11 @@ class Projects extends Component{
 
     render() {
         return (
-            <div>
-                <h1>Projects</h1>
-                <div>
-                    <div onClick={this.onClickProfessional}>Professional</div>
-                    <div onClick={this.onClickPersonal}>Personal</div>
+            <div className="projects-container">
+                <h1 className={'projects-header'}>Projects</h1>
+                <div className={'projects-options'}>
+                    <div className={this.state.projectType === ProjectType.professional ? 'projects-options-highlight' : '' } onClick={this.onClickProfessional}>Professional</div>
+                    <div className={this.state.projectType === ProjectType.personal ? 'projects-options-highlight' : '' } onClick={this.onClickPersonal}>Personal</div>
                 </div>
                 <ProjectList isProfessional={this.state.projectType === ProjectType.professional} />
             </div>

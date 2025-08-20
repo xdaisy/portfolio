@@ -1,0 +1,55 @@
+.project-container {
+    width: 95vw;
+    color: #FFFEEF;
+}
+
+.project-container-container
+{
+    background-color: #446158;
+    padding: 10px;
+    gap: 1%;
+}
+
+.project-container-container p {
+    margin-left: 10px;
+    font-size: 18px;
+}
+
+.project-information-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 10px
+}
+
+.project-information {
+    text-align: center;
+    width: 100%;
+}
+
+.project-information-nolink {
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.project-information-info {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.project-information a {
+    font-weight: bold;
+    font-size: 3vw;
+}
+
+.project-information-img-container
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.project-information-img-container img {
+    width: 25vw;
+    height: auto;
+}

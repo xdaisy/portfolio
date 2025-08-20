@@ -1,9 +1,10 @@
 import React from "react";
+import "./Contact.css"
 
 const Contact = () => {
     return (
-        <div>
-            <p>Email: daisy1xu4@gmail.com</p>
+        <div className={"contact-container"}>
+            <div>Email: daisy1xu4@gmail.com</div>
             <a href={"https://www.linkedin.com/in/daisy-xu-0145b413a/"}>LinkedIn</a>
             <br />
             <br />

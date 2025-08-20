@@ -1,0 +1,16 @@
+.contact-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #272C1A;
+    font-size: 20px;
+}
+
+.contact-container div {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.contact-container a {
+    margin: 10px;
+}
