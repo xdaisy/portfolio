@@ -1,18 +1,20 @@
 .project-container {
     width: 95vw;
-    color: #FFFEEF;
+    color: #EFFDFF;
 }
 
 .project-container-container
 {
-    background-color: #446158;
+    background-color: #2b707b;
     padding: 10px;
     gap: 1%;
+    border-radius: 3%;
 }
 
 .project-container-container p {
-    margin-left: 10px;
-    font-size: 18px;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: large;
 }
 
 .project-information-container {
@@ -30,17 +32,17 @@
 
 .project-information-nolink {
     font-weight: bold;
-    font-size: 3vw;
+    font-size: xxx-large;
 }
 
 .project-information-info {
     font-weight: bold;
-    font-size: 18px;
+    font-size:larger;
 }
 
 .project-information a {
     font-weight: bold;
-    font-size: 3vw;
+    font-size: xxx-large;
 }
 
 .project-information-img-container
