@@ -1,14 +1,14 @@
 .project-container {
     width: 95vw;
-    color: #EFFDFF;
+    color: #FFFEEF;
 }
 
 .project-container-container
 {
-    background-color: #2b707b;
-    padding: 10px;
+    background-color: #31683f;
+    padding: 0.5vw;
     gap: 1%;
-    border-radius: 3%;
+    border-radius: 1%;
 }
 
 .project-container-container p {
@@ -21,13 +21,17 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 10px;
-    gap: 10px
+    padding: 1vw;
+    gap: 2vh;
 }
 
 .project-information {
     text-align: center;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
 }
 
 .project-information-nolink {
@@ -35,9 +39,23 @@
     font-size: xxx-large;
 }
 
+.project-information-info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .project-information-info {
     font-weight: bold;
-    font-size:larger;
+    font-size: larger;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+.project-information-info-value {
+    font-weight: normal;
 }
 
 .project-information a {

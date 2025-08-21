@@ -1,13 +1,15 @@
 .home-container {
     display: block;
     justify-content: center;
-    color: #EFFDFF;
+    color: #FFFEEF;
 }
 
 .home-container h1 {
     text-align: center;
+    font-size: xxx-large;
 }
 
 .home-container div {
     margin: 1vw;
+    font-size: large;
 }

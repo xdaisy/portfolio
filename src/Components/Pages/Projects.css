@@ -1,5 +1,5 @@
 .projects-container {
-    color: #EFFDFF;
+    color: #FFFEEF;
     width: 100vw;
 }
 
@@ -12,15 +12,15 @@
     width: 15%;
     font-size: x-large;
     margin-left: 2vw;
-    background-color: #2b707b;
-    color: #EFFDFF;
+    background-color: #31683f;
+    color: #FFFEEF;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1vh;
     padding-top: 1%;
     padding-bottom: 1%;
-    border-radius: 5%;
+    border-radius: 6%;
 }
 
 .projects-options div {
@@ -28,5 +28,5 @@
 }
 
 .projects-options-highlight {
-    color: #25FFFF;
+    color: #00FF4C;
 }
