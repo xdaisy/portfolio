@@ -16,7 +16,7 @@ class ProjectList extends Component{
             <div className={"projectlist-container"} key={this.props.isProfessional}>
                 <ul className={"projectlist-container"}>{projects}</ul>
             </div>
-        )
+        );
     }
 }
 

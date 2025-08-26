@@ -20,18 +20,29 @@
 .project-information-container {
     display: flex;
     flex-direction: column;
-    width: 100%;
     padding: 1vw;
     gap: 2vh;
+    align-items: center;
+}
+
+.project-information-container a {
+    font-weight: bold;
+    font-size: xxx-large;
+}
+
+.project-container-container p {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    font-size: large;
 }
 
 .project-information {
     text-align: center;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-content: center;
-    align-items: center;
+    gap: 2vw;
 }
 
 .project-information-nolink {
@@ -65,11 +76,11 @@
 
 .project-information-img-container
 {
-    width: 100%;
+    width: 25vw;
     display: flex;
     justify-content: center;
 }
 .project-information-img-container img {
-    width: 25vw;
+    width: 100%;
     height: auto;
 }

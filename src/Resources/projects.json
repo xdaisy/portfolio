@@ -50,9 +50,9 @@
 			"platform": "PC",
 			"studio": "N/A",
 			"date": "March 2018 - June 2023",
-			"role": "Director, Producer, Designer, UI Engineer, Gameplay Engineer",
+			"role": "Director, UI Engineer, Gameplay Engineer, Designer, Producer",
 			"engine": "Unity",
-			"description": "Osmose was my first venture into game development. It was a projected started between me and my friends to learn how to develop games. I was the head of the project and managed everyone and kept us in development. We collaborated on how the art direction, the UI, the gameplay mechanics, and the story, but I was the one who implemented them into the game. I was also the one who put everything together in the Unity Editor.",
+			"description": "Osmose was my first venture into game development. It was a project started between me and my friends to learn how to develop games. I was the head of the project and managed everyone and kept us in development. We collaborated on how the art direction, the UI, the gameplay mechanics, and the story, but I was the one who implemented them into the game. I was also the one who put everything together in the Unity Editor.",
 			"link": "",
 			"image": ""
 		},
@@ -63,9 +63,9 @@
 			"platform": "PC",
 			"studio": "N/A",
 			"date": "July 2019 - January 2021",
-			"role": "Director, Designer, UI Engineer, Gameplay Engineer",
+			"role": "Director, UI Engineer, Gameplay Engineer, Designer",
 			"engine": "Unity",
-			"description": "Cat Nyap was a project to learn more about game development and design. It was a project that I based off of Super Mario Bros on the NES. I wanted to learn what goes into designing and developing platformers.\n    I was the sole developer for the project, so I implemented and designed the core gameplay mechanics. I also created all the art assets and animation.",
+			"description": "Cat Nyap was a solo project to learn more about game development and design. It was a project that I based off of Super Mario Bros on the NES. I wanted to learn what goes into designing and developing platformers.\n    I was the sole developer for the project, so I implemented and designed the core gameplay mechanics. I also created all the art assets and animation.",
 			"link": "https://manydazelater.itch.io/cat-nyap",
 			"image": "catnyap"
 		}

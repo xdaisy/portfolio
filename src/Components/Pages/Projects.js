@@ -38,7 +38,7 @@ class Projects extends Component{
                 </div>
                 <ProjectList isProfessional={this.state.projectType === ProjectType.professional} />
             </div>
-        )
+        );
     }
 }
 
