@@ -49,7 +49,8 @@ class Project extends Component{
                             </div>
                         </div>
                     </div>
-                    <p>{this.props.data.description}</p>
+                    {this.props.data.game_description.length > 0 ? (<p>{this.props.data.game_description}</p>) : null}
+                    <p>{this.props.data.job_description}</p>
                 </div>
             </div>
         );
