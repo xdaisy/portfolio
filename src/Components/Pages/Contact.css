@@ -4,17 +4,28 @@
     flex-direction: column;
     align-items: center;
     color: #FFFEEF;
-    font-size: x-large;
+    font-size: xx-large;
 }
 
 .contact-container h1 {
     font-size: 8vh;
 }
 
-.contact-container div {
-    margin-top: 2vh;
-    margin-bottom: 1vh;
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1vh;
 }
-.contact-container a {
-    margin: 1vh;
+
+.contact-info a:link {
+    color: white;
+}
+
+.contact-info a:hover {
+    color: #34d9ff;
+}
+
+.contact-info a:visited {
+    color: #9844df;
 }
