@@ -1,10 +1,12 @@
 .projectlist-container {
-    width: 100%;
+    width: 95%;
     display: flex;
 }
 
 .projectlist-container ul {
+    width:100%;
     display: flex;
     flex-direction: column;
     gap: 3vh;
+    padding-left: 0;
 }

@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 export const Nav = styled.nav`
     background: #31683f;
-    height: min(10vh, 10vw);
+    height: 10vh;
     display: flex;
     justify-content: center;
     z-index: 12;
@@ -14,7 +14,6 @@ export const NavLink = styled(Link)`
     display: flex;
     align-items: center;
     text-decoration: none;
-    height: 100%;
     font-size: xx-large;
     cursor: pointer;
     &.active {
@@ -28,6 +27,6 @@ export const NavMenu = styled.div`
     align-items: center;
     justify-content: space-evenly;
     @media screen and (max-width: 768px) {
-        display: none;
+        width: 100%;
     }
 `;

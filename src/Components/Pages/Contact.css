@@ -12,10 +12,17 @@
 }
 
 .contact-info {
+    width: 95%;
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1vh;
+}
+
+.contact-info {
+    @media screen and (max-width: 768px) {
+        text-align: center;
+    }
 }
 
 .contact-info a:link {

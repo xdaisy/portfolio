@@ -1,5 +1,5 @@
 .project-container {
-    width: 95vw;
+    width: 100%;
     color: #FFFEEF;
 }
 
@@ -31,6 +31,7 @@
 .project-information-container a {
     font-weight: bold;
     font-size: xxx-large;
+    text-align: center;
 }
 
 .project-information-container a:link {
@@ -45,7 +46,6 @@
     color: #4c147b;
 }
 
-
 .project-information {
     text-align: center;
     width: 100%;
@@ -53,6 +53,11 @@
     flex-direction: row;
     align-content: center;
     gap: 2vw;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .project-information-nolink {
@@ -73,6 +78,10 @@
     display: flex;
     justify-content: center;
     gap: 1vw;
+
+    @media screen and (max-width: 768px) {
+        gap: 2vw;
+    }
 }
 
 .project-information-info-value {
@@ -84,8 +93,13 @@
     width: 25vw;
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        width: 75%;
+    }
 }
 .project-information-img-container img {
     width: 100%;
     height: auto;
+    object-fit: contain;
 }
