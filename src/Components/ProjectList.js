@@ -13,8 +13,8 @@ class ProjectList extends Component{
         });
 
         return (
-            <div className={"projectlist-container"} key={this.props.isProfessional}>
-                <ul className={"projectlist-container"}>{projects}</ul>
+            <div className={'projectlist-container'} key={this.props.isProfessional}>
+                <ul className={'projectlist-container'}>{projects}</ul>
             </div>
         );
     }

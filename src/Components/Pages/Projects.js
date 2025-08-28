@@ -30,7 +30,7 @@ class Projects extends Component{
 
     render() {
         return (
-            <div className="projects-container">
+            <div className='projects-container'>
                 <h1 className={'projects-header'}>Projects</h1>
                 <div className={'projects-options'}>
                     <div className={this.state.projectType === ProjectType.professional ? 'projects-options-highlight' : '' } onClick={this.onClickProfessional}>Professional</div>

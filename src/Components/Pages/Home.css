@@ -1,5 +1,5 @@
 .home-container {
-    width: 100%;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,7 +13,75 @@
     font-size: 8vh;
 }
 
-.home-container div {
+.home-about-container {
     width: 95%;
     font-size: x-large;
+}
+
+.home-experience-container
+{
+    width: 95%;
+    display: flex;
+    flex-direction:  column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vh;
+    padding-bottom: 3vh;
+}
+
+.home-experience-container h2
+{
+    font-size: 6vh;
+}
+
+.home-label {
+    font-weight: bold;
+}
+
+.company-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;;
+    align-items:  center;
+    gap: 1vh;
+    background-color: #31683f;
+    border-radius: 1vw;
+    font-size: x-large;
+}
+
+.company-name {
+    font-weight: bold;
+    font-size: xx-large;
+    margin-top: 2vh;
+    text-align: center;
+}
+
+.company-info-container {
+    width: 95%;
+    display: flex;
+    gap: 2vw;
+}
+
+.company-position-container {
+    display: flex;
+    gap: 2vw;
+}
+
+.role-container {
+    width: 95%;
+    display: flex;
+    flex-direction:  column;
+}
+
+.role-info-container {
+    display: flex;
+    gap: 2vw;
+}
+
+.role-description-container {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin: 0;
+    margin-bottom: 2vh;
 }

@@ -13,10 +13,10 @@ const projectImages = {
 class Project extends Component{
     render() {
         return (
-            <div className={"project-container"} key={this.props.data}>
+            <div className={"project-container"} key={this.props.data.name}>
                 <div className={"project-container-container"}>
                     <div className={"project-information-container"}>
-                        {this.props.data.link.length > 0 ? <a href={this.props.data.link} target="_blank">{this.props.data.name}</a> : <div className={'project-information-nolink'}>{this.props.data.name}</div>}
+                        {this.props.data.link.length > 0 ? <a href={this.props.data.link} target="_blank" rel="noreferrer">{this.props.data.name}</a> : <div className={'project-information-nolink'}>{this.props.data.name}</div>}
                         <div className={"project-information"}>
                             {this.props.data.image.length > 0 ? (<div className={"project-information-img-container"}>
                                 <img src={projectImages[this.props.data.image]} alt={this.props.data.title} />
