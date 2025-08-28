@@ -5,6 +5,7 @@
     align-items: center;
     color: #FFFEEF;
     font-size: xx-large;
+    animation: fadeIn 1.5s forwards;
 }
 
 .contact-container h1 {

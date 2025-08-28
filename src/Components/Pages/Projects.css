@@ -5,6 +5,7 @@
     flex-direction: column;
     align-items: center;
     gap: 3vh;
+    animation: fadeIn 1.5s forwards;
 }
 
 .projects-header {

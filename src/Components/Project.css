@@ -1,6 +1,7 @@
 .project-container {
     width: 100%;
     color: #FFFEEF;
+    animation: fadeIn 1.5s forwards;
 }
 
 .project-container-container
