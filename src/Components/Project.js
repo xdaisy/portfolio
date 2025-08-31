@@ -3,11 +3,13 @@ import "./Project.css"
 import WonderWoman from './../Resources/WonderWoman.png';
 import ProjectSwagger from './../Resources/ProjectSwagger.png';
 import CatNyap from './../Resources/CatNyap.png';
+import Osmosis from './../Resources/Osmosis.png';
 
 const projectImages = {
     "wonderwoman": WonderWoman,
     "projectswagger": ProjectSwagger,
-    "catnyap": CatNyap
+    "catnyap": CatNyap,
+    "osmosis": Osmosis
 };
 
 class Project extends Component{
